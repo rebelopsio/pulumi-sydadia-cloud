@@ -1,6 +1,6 @@
-name: provider-xyz-native
+name: provider-synadia-cloud-native
 runtime: go
 plugins:
   providers:
-    - name: xyz
+    - name: synadia-cloud
       path: ../../bin

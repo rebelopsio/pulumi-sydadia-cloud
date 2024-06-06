@@ -1,10 +1,10 @@
-PROJECT_NAME := Pulumi Xyz Resource Provider
+PROJECT_NAME := Pulumi synadia-cloud Resource Provider
 
-PACK             := xyz
+PACK             := synadia-cloud
 PACKDIR          := sdk
-PROJECT          := github.com/pulumi/pulumi-xyz
-NODE_MODULE_NAME := @abc/xyz
-NUGET_PKG_NAME   := Abc.Xyz
+PROJECT          := github.com/rebelopsio/pulumi-synadia-cloud
+NODE_MODULE_NAME := @rebelopsio/synadia-cloud
+NUGET_PKG_NAME   := rebelopsio.synadia-cloud
 
 PROVIDER        := pulumi-resource-${PACK}
 VERSION         ?= $(shell pulumictl get version)

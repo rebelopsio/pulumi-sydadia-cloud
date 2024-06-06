@@ -1,4 +1,4 @@
-module provider-xyz-native
+module provider-synadia-cloud-native
 
 go 1.20
 

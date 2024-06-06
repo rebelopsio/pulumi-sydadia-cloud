@@ -17,8 +17,8 @@ package main
 import (
 	p "github.com/pulumi/pulumi-go-provider"
 
-	xyz "github.com/pulumi/pulumi-xyz/provider"
+	synadia-cloud "github.com/rebelopsio/pulumi-synadia-cloud/provider"
 )
 
 // Serve the provider against Pulumi's Provider protocol.
-func main() { p.RunProvider(xyz.Name, xyz.Version, xyz.Provider()) }
+func main() { p.RunProvider(synadia-cloud.Name, synadia-cloud.Version, synadia-cloud.Provider()) }
